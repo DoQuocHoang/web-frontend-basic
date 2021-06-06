@@ -6,6 +6,11 @@
   flex-wrap: wrap;
   align-items: center;
 } */
+
+.clear {
+  clear: both;
+}
+
 .header {
   /* background-color: #f8609f; */
   width: 100%;
@@ -101,6 +106,7 @@
 }
 
 .menu__li a {
+  color:rgb(44, 44, 44);
   display: block;
   height: auto;
   line-height: 80px;
@@ -112,9 +118,7 @@
 
 
 /*---------------- General heading----------------*/
-.clear {
-  clear: both;
-}
+
 
 .__heading {
   height: max-content;
