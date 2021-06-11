@@ -1,0 +1,149 @@
+.cam-nang {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cam-nang__left {
+    flex: 1;
+    padding: 0 20px;
+}
+
+
+
+.cam-nang__topic {
+    width: 100%;
+    min-width: 300px;
+    position: relative;
+}
+
+.cam-nang__topic img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.topic__date {
+    background-color: rgb(216, 44, 44);
+    color: white;
+    height: 56px;
+    width: 56px;
+    border-radius: 5px;
+
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic__date .top {
+    font: 140%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.topic__date .bot {
+    font-size: 80%;
+}
+
+.cam-nang__left__content .title {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    word-spacing: 1px;
+    margin: 20px 0;
+
+    display: block;
+}
+
+.cam-nang__left__content .text {
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+    font-size: 90%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 150%;
+
+    word-spacing: 5px;
+    
+
+
+    display: block;
+    
+}
+
+.cam-nang__left__content .title:hover, .cam-nang__left__content .text:hover {
+    color: #f8609f;
+}
+
+.cam-nang__right {
+    flex: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cam-nang__right__item {
+    width: 45%;
+    min-width: 200px;
+    height: max-content;
+    float: left;
+    display: block;
+}
+.cam-nang__right__item__topic {
+    position: relative;
+}
+
+.cam-nang__right__item__topic img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    border-radius: 5px;
+}
+
+.cam-nang__right__item__topic__date {
+    background-color: rgb(216, 44, 44);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cam-nang__right__item__topic__date .top {
+    font-size: 90%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cam-nang__right__item__topic__date .bot {
+    font-size: 70%;
+}
+
+.cam-nang__right__item__title {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 115%;
+    font-weight: bold;
+    line-height: 130%;
+    margin: 10px 0 0 0;
+
+    display: block;
+}
+
+.cam-nang__right__item__title:hover {
+    color: #f8609f;
+}

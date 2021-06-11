@@ -165,11 +165,6 @@
   display: none;
 }
 
-.menu-icon:hover .menu__li{
-  display: none;
-}
-
-
 .menu__ul {
   display: flex;
   min-height: 80px;
@@ -363,7 +358,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
 .backtop {
